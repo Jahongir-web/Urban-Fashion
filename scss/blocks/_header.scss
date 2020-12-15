@@ -17,7 +17,8 @@
 }
 
 .header-site__nav {
-
+  flex: 1;
+  padding-left: 60px;
 }
 
 .header-site__nav-list {
@@ -25,11 +26,15 @@
 }
 
 .header-site__nav-item {
+  @include reset-list;
+  display: inline-block;
+  margin: 0 20px ;
 
 }
 
 .header-site__nav-link {
-
+  text-decoration: none;
+  color: $txt-color;
 }
 
 .header-site__cart-link {
